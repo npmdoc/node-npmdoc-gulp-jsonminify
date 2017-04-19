@@ -1,9 +1,14 @@
-# api documentation for  [gulp-jsonminify (v1.0.0)](https://github.com/tcarlsen/gulp-jsonminify)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-jsonminify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-jsonminify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-jsonminify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-jsonminify)
+# npmdoc-gulp-jsonminify
+
+#### api documentation for  [gulp-jsonminify (v1.0.0)](https://github.com/tcarlsen/gulp-jsonminify)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-jsonminify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-jsonminify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-jsonminify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-jsonminify)
+
 #### Minifies blocks of JSON-like content into valid JSON by removing all whitespace and comments.
 
-[![NPM](https://nodei.co/npm/gulp-jsonminify.png?downloads=true)](https://www.npmjs.com/package/gulp-jsonminify)
+[![NPM](https://nodei.co/npm/gulp-jsonminify.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-jsonminify)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-jsonminify/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-jsonminify_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-jsonminify/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-jsonminify/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-jsonminify/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-jsonminify/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-jsonminify/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-jsonminify/build/screenCapture.npmPackageListing.svg)
 
@@ -47,13 +52,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "tcarlsen",
-            "email": "thomascarlsen86@gmail.com"
+            "name": "tcarlsen"
         }
     ],
     "name": "gulp-jsonminify",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/tcarlsen/gulp-jsonminify.git"
@@ -62,16 +65,6 @@
     "version": "1.0.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-jsonminify](#apidoc.module.gulp-jsonminify)
-
-
-
-# <a name="apidoc.module.gulp-jsonminify"></a>[module gulp-jsonminify](#apidoc.module.gulp-jsonminify)
 
 
 
