@@ -61,12 +61,57 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-jsonminify">module gulp-jsonminify</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-jsonminify.gulp-jsonminify">
+            function <span class="apidocSignatureSpan"></span>gulp-jsonminify
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-jsonminify" id="apidoc.module.gulp-jsonminify">module gulp-jsonminify</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-jsonminify.gulp-jsonminify" id="apidoc.element.gulp-jsonminify.gulp-jsonminify">
+        function <span class="apidocSignatureSpan"></span>gulp-jsonminify
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">gulp-jsonminify = function () {
+    &#x27;use strict&#x27;;
+
+    return through.obj(function (file, encoding, callback) {
+        if (file.isNull()) {
+            this.push(file);
+            return callback();
+        }
+
+        if (file.isStream()) {
+            this.emit(&#x27;error&#x27;, new gutil.PluginError(&#x27;gulp-jsonminify&#x27;, &#x27;Streaming not supported&#x27;));
+            return callback();
+        }
+
+        try {
+            file.contents = new Buffer(jsonminify(file.contents.toString()).toString());
+        } catch (err) {
+            this.emit(&#x27;error&#x27;, new gutil.PluginError(&#x27;gulp-jsonminify&#x27;, err));
+        }
+
+        this.push(file);
+        callback();
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
