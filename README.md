@@ -1,6 +1,6 @@
 # npmdoc-gulp-jsonminify
 
-#### api documentation for  [gulp-jsonminify (v1.0.0)](https://github.com/tcarlsen/gulp-jsonminify)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-jsonminify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-jsonminify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-jsonminify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-jsonminify)
+#### basic api documentation for  [gulp-jsonminify (v1.0.0)](https://github.com/tcarlsen/gulp-jsonminify)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-jsonminify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-jsonminify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-jsonminify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-jsonminify)
 
 #### Minifies blocks of JSON-like content into valid JSON by removing all whitespace and comments.
 
@@ -62,7 +62,8 @@
         "url": "git+https://github.com/tcarlsen/gulp-jsonminify.git"
     },
     "scripts": {},
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
